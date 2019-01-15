@@ -93,7 +93,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #b0b0b0;
+    color: #141313;
 
 }
 /*  */
@@ -101,7 +101,7 @@ header nav a {
 
 header nav a:hover {
     text-decoration: none;
-    color: #a81212;
+    color: #6c96c7;
 
 }
 
@@ -161,6 +161,7 @@ header .logo {
 
 .main-content .middle-img {
     display: block;
+    max-width: 100%;
     margin: 1.88rem auto;
 }
 
@@ -256,15 +257,15 @@ footer {
         text-align: center;
         padding: 1.25rem 0;
         font-size: 1.25rem;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid grey;
     }
 
     header nav a:first-child {
-        border-top: 1px solid gray;
+        border-top: 1px solid grey;
     }
 
     header nav a:hover {
-        background: gray;
+        background: #dfdede;
     }
 
     header .logo {
