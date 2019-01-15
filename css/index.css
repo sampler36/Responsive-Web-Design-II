@@ -66,11 +66,11 @@ h1, h2, h3, h4, h5 {
     /* font-family: 'Bangers', cursive; */
     font-family: 'ZCOOL XiaoWei', serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 0.5rem;
 }
 
 .container {
-    width: 880px;
+    max-width:880px;
     margin: auto;
     font-size:1.6rem;
 }
@@ -84,6 +84,7 @@ header {
 }
 
 header nav {
+    margin: 2rem;
     margin-top: 4rem; 
     width: 61%;
     justify-content: space-evenly;
@@ -113,28 +114,28 @@ header .logo {
 
 .landing {
     display: flex;
-    margin-top: 72px;
+    margin-top: 4.5rem;
     justify-content: flex-end;
 }
 
 .landing .landing-text {
-    font-size: 72px;
+    font-size: 4.4rem;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 0.3125rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    margin: 0 82px 0 0;
+    margin: 0 5.125rem 0 0;
 }
 
 .landing .landing-text button {
     border: 1px double black;
-    font-size: 16px;
+    font-size: 1rem;
     background: white;
     width: 170px;
     height: 32px;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     cursor: pointer;
 }
 
@@ -146,11 +147,11 @@ header .logo {
 /* Main Content Styles */
 
 .main-content {
-   border-top: 2px solid black; 
+   border-top: 0.125rem solid black; 
    border-bottom: 2px solid black;
-   margin: 75px 0 35px 0;
-   padding: 35px 0;
-   font-size: 16px;
+   margin: 4.5rem 0 2.25rem 0;
+   padding: 2.25rem 0;
+   font-size: 1.2rem;
    line-height: 18px;
 }
 
@@ -160,7 +161,7 @@ header .logo {
 
 .main-content .middle-img {
     display: block;
-    margin: 30px auto;
+    margin: 1.88rem auto;
 }
 
 .main-content .bottom-content {
@@ -168,20 +169,20 @@ header .logo {
 }
 
 .main-content .bottom-content p {
-    padding-right: 20px;
+    padding-right: 1.25rem;
 }
 
 /* Contact Styles */
 
 .contact p {
-    margin: 15px 0;
+    margin: 0.9375rem 0;
 }
 
 /* Footer Styles */
 
 footer {
     text-align: center;
-    margin: 40px 0 20px;
+    margin: 2.5rem 0 2.5rem;
 }
 
 /* Tablet */
@@ -197,13 +198,13 @@ footer {
   
     header nav {
         width: 768px;
-        padding: 0 30px;
+        padding: 0 1.875rem;
     }
 
     header .logo {
         order: -1;
         display: block;
-        margin: 30px auto 0;
+        margin: 1.875rem auto 0;
     }
 
     .landing {
@@ -223,15 +224,15 @@ footer {
     }
 
     .main-content {
-       margin: 75px 20px 35px;
+       margin: 4.5rem 1.25rem 2.25rem;
     }
 
     .text-content {
-        margin: 0 10px;
+        margin: 0 0.625rem;
     }
 
     .contact {
-        margin: 0 30px;
+        margin: 0 1.88rem;
     }
 }
 
@@ -253,8 +254,8 @@ footer {
         width: 100%;
         display: block;
         text-align: center;
-        padding: 20px 0;
-        font-size: 20px;
+        padding: 1.25rem 0;
+        font-size: 1.25rem;
         border-bottom: 1px solid gray;
     }
 
@@ -267,7 +268,7 @@ footer {
     }
 
     header .logo {
-        margin: 20px 0;
+        margin: 1.25rem 0;
     }
 
     .landing {
@@ -297,6 +298,6 @@ footer {
     }
 
     .contact {
-        margin: 20px;
+        margin: 1.25rem;
     }
 }
