@@ -29,7 +29,7 @@
 
 html,
 body,
-div,
+/* div, */
 span,
 applet,
 object,
@@ -114,6 +114,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -217,6 +218,7 @@ header p {
   display: flex;
   font-size: 37px;
   font-weight: bolder;
+  text-decoration: none;
 }
 
 header nav a {
@@ -284,7 +286,7 @@ header nav a:hover {
   /* font-family: 'Marck Script', cursive; */
 
   /* font-family: 'Oleo Script', cursive; */
-  color: rgba(248, 82, 53, 1);
+  color: rgb(235, 248, 53);
   background: -webkit-linear-gradient(rgb(245, 3, 3), rgb(46, 191, 6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -297,6 +299,15 @@ header nav a:hover {
   font-size: 2.4rem;
   color: #27ae60;
 }
+.burger{
+  /* display: none; */
+}
+.line1{
+  width: 25px;
+  margin: 15px;
+  background-color: rgb(13, 14, 12);
+}
+.line1{background-color: royalblue;}
 
 .landing .landing-text {
   font-size: 2.4rem;
@@ -307,12 +318,14 @@ header nav a:hover {
   justify-content: center;
   flex-flow: column;
   align-items: center;
-  margin: 0 5.125rem 0 0;
+  margin: 5rem;
 }
 .landing img {
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 320px;
+  width: 320px;
+  z-index: +1;
+  box-shadow: 4px 10px 5px -3px rgb(158, 182, 173);
 }
 
 .landing .landing-text button {
@@ -461,6 +474,7 @@ footer {
     order: -1;
     display: block;
     margin: 1.875rem auto 0;
+    text-decoration: none;
   }
 
   .landing {
@@ -512,6 +526,7 @@ footer {
   }
 
   header nav a {
+    text-decoration: none;
     width: 100%;
     display: block;
     text-align: center;
@@ -520,7 +535,14 @@ footer {
     /* border-bottom: 1px solid grey; */
   }
 
-  header nav a:hover {
+  header nav a:hover{
+    background: rgb(85, 187, 56);
+    color: white;
+    width: 100%;
+    /* text-transform: uppercase; */
+    border-radius: 1px;
+  }
+  header nav a:active{
     background: rgb(85, 187, 56);
     color: white;
     width: 100%;
@@ -530,6 +552,7 @@ footer {
 
   header .logo {
     margin: 1.25rem 0;
+    text-decoration: none;
   }
 
   .landing {
@@ -543,7 +566,7 @@ footer {
   }
 
   .main-content .top-content {
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
   }
 
