@@ -184,7 +184,7 @@ h5 {
   margin-bottom: 0.5rem;
 }
 
-.container {
+.contain {
   max-width: 880px;
   margin: auto;
   font-size: 1.6rem;
@@ -266,6 +266,14 @@ header nav a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#extra2 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 35px;
+  color: rgba(248, 82, 53, 1);
+  background: -webkit-linear-gradient(rgb(245, 3, 3), rgb(46, 191, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
 #extra1 {
   /* font-family: 'Montserrat', sans-serif; */
 
@@ -389,6 +397,8 @@ header nav a:hover {
 
 .contact{
   display: flex;
+  /* position: fixed; */
+  /* bottom: 0; */
   justify-content: space-evenly;
   margin: 0.9375rem 0;
 }
@@ -451,6 +461,7 @@ header nav a:hover {
 /* Footer Styles */
 
 footer {
+
   text-align: center;
   margin: 2.5rem 0 2.5rem;
 }
@@ -554,6 +565,13 @@ footer {
     margin: 1.25rem 0;
     text-decoration: none;
   }
+
+/* .blog{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  justify-content: flex-end;
+} */
 
   .landing {
     margin-top: 50px;
