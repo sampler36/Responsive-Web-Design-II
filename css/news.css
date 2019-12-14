@@ -83,3 +83,18 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.head{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oleo Script', cursive; 
+    font-size: 30px;  
+    color: rgba(248, 82, 53, 1);
+    background: -webkit-linear-gradient(rgba(215, 6, 6, 0.612), rgb(52, 211, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+       
+}
