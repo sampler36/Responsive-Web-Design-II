@@ -367,6 +367,7 @@ header nav a:hover {
 /* Main Content Styles */
 
 .main-content {
+  min-height: 880px;
   border-top: 0.125rem solid rgb(46, 191, 6) ;
   border-bottom: 2px solid rgb(249, 4, 4);
   margin: 4.5rem 0 2.25rem 0;
