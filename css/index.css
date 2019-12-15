@@ -206,6 +206,7 @@ header nav {
   margin: 2rem;
   margin-top: 4rem;
   width: 50%;
+  font-size: 1.2rem;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -262,6 +263,7 @@ header nav a:hover {
 #extra {
   font-family: 'Oleo Script', cursive;
   color: rgba(248, 82, 53, 1);
+  text-decoration: none;
   background: -webkit-linear-gradient(rgb(245, 3, 3), rgb(46, 191, 6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -397,8 +399,7 @@ header nav a:hover {
 
 .contact{
   display: flex;
-  /* position: fixed; */
-  /* bottom: 0; */
+  
   justify-content: space-evenly;
   margin: 0.9375rem 0;
 }
@@ -464,6 +465,7 @@ footer {
 
   text-align: center;
   margin: 2.5rem 0 2.5rem;
+  font-size: 1.2rem;
 }
 
 /* Tablet */
